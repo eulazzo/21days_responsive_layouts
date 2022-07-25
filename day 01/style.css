@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parent{
+  background-color: tomato;
+  padding: 50px;
+  margin:0 auto;
+
+  /* width: 700px;  don't use fixed sizes for widht or/and heights*/
+  width: 80%;
+}
+
+.child{
+  background-color: gray;
+  height: 200px;}
