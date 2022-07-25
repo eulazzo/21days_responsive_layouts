@@ -7,12 +7,17 @@
 .parent{
   background-color: tomato;
   padding: 50px;
-  margin:0 auto;
-
+  
   /* width: 700px;  don't use fixed sizes for widht or/and heights*/
+  margin:0 auto;
   width: 80%;
 }
 
 .child{
   background-color: gray;
-  height: 200px;}
+  height: 200px;
+  /* width: 750px; when the  child widht is bigger than the parent,cause the overflow*/
+ 
+  width: 50%; /*This percentage depends on how much is its parent*/
+  margin: 0 auto;
+}
